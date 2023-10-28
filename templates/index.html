@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar color de imagen</title>
+</head>
+<body>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <label for="file">Selecciona una imagen PNG:</label>
+        <input type="file" name="file" accept=".png"><br><br>
+
+        <label for="hex_color">Introduce el color hexadecimal (ejemplo: #FF0000):</label>
+        <input type="text" name="hex_color" required><br><br>
+
+        <input type="submit" value="Cambiar color y descargar">
+    </form>
+</body>
+</html>
