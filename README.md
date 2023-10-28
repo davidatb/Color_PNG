@@ -1,6 +1,11 @@
 # Cambiar el color de una imagen PNG
 Este script de Python permite cambiar el color de una imagen PNG. Simplemente proporciona la ruta de la imagen de entrada, la ruta de la imagen de salida y el color en formato hexadecimal que deseas aplicar.
 
+## Demo
+https://cool-water-341.fly.dev/
+
+![](https://raw.githubusercontent.com/davidatb/google-clone/master/google-clone.png)
+
 Requisitos
 Python 3.x
 pip
@@ -14,7 +19,7 @@ Ejecuta el script cambiar_color.py con los siguientes argumentos:
 Donde:
 
 input_file: Ruta de la imagen de entrada (PNG).
-output_file: Ruta de la imagen de salida (PNG).
+output_file: Ruta de la imagen de salida (PNG).****
 hex_color: Color en formato hexadecimal (ejemplo: #FF0000).
 Ejemplo
 Este comando cambiará el color de la imagen imagen.png a rojo y guardará la nueva imagen en imagen_roja.png.
