@@ -58,16 +58,8 @@ def index():
             cambiar_color(input_path, output_path, rgba_color)
             return send_from_directory(app.config['UPLOAD_FOLDER'], "output_" + filename, as_attachment=True)
 
-    return '''
-    <!doctype html>
-    <title>Upload new File</title>
-    <h1>Carga una imagen PNG</h1>
-    <form method=post enctype=multipart/form-data>
-      <input type=file name=file><br>
-      Color HEX: <input type=text name=hex_color placeholder="#RRGGBB"><br>
-      <input type=submit value=Upload>
-    </form>
-    '''
+    return render_template("index.html")
+
 
 if __name__ == '__main__':
     if not os.path.exists(UPLOAD_FOLDER):
