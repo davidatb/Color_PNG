@@ -4,7 +4,7 @@ Este script de Python permite cambiar el color de una imagen PNG. Simplemente pr
 ## Demo
 https://cool-water-341.fly.dev/
 
-![](https://raw.githubusercontent.com/davidatb/google-clone/master/google-clone.png)
+![](https://raw.githubusercontent.com/davidatb/Color_PNG/main/screenshot.png)
 
 Requisitos
 Python 3.x
